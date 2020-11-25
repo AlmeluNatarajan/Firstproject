@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-24T06:26:42.758Z",
+        "line": 4,
+        "name": "HomePage Login",
+        "description": "",
+        "id": "application-login;homepage-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11007800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Landing Page",
+            "match": {
+              "location": "StepDefinition.StepDefinition.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gives username and password",
+            "match": {
+              "location": "StepDefinition.StepDefinition.user_gives_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home Screen is launched",
+            "match": {
+              "location": "StepDefinition.StepDefinition.home_screen_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Login.feature",
+    "tags": []
+  }
+]
